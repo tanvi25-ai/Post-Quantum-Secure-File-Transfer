@@ -72,4 +72,12 @@ PQC_implementation.ipynb
 <img width="1902" height="788" alt="image" src="https://github.com/user-attachments/assets/6ec59210-0a8b-4c70-90d5-082ec2188984" />
 <img width="1911" height="858" alt="image" src="https://github.com/user-attachments/assets/1cf31c18-bf0c-422f-a762-64a18b0f4aab" />
 
+---
+
+## Sample Results
+
+- Shared secret match = **True**
+- Signature verification = **Valid**
+- File encrypted and decrypted successfully
+- Performance comparison with RSA completed
 
