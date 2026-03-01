@@ -1,58 +1,69 @@
-Post-Quantum Secure File Transfer System
+# Post-Quantum Secure File Transfer System
 
-#Overview
+## Overview
 
 This project implements a complete Post-Quantum Cryptography (PQC) secure file transfer system using NIST-standardized algorithms.
 
 It demonstrates how quantum-safe cryptography can be deployed on classical infrastructure.
 
-#Algorithms Used
-Post-Quantum Key Exchange
+---
 
+## Algorithms Used
+
+### Post-Quantum Key Exchange
 CRYSTALS-Kyber (ML-KEM-768)
 
-Post-Quantum Digital Signatures
-
+### Post-Quantum Digital Signatures
 CRYSTALS-Dilithium (ML-DSA-65)
 
-Symmetric Encryption
-
+### Symmetric Encryption
 AES-GCM (Hybrid encryption model)
 
-#Features
+---
 
-PQC-based key encapsulation
+## Features
 
-PQC digital signature generation & verification
+- PQC-based key encapsulation
+- PQC digital signature generation and verification
+- Secure file encryption and decryption
+- End-to-end secure transfer simulation
+- Performance comparison with RSA
 
-Secure file encryption & decryption
+---
 
-End-to-end secure transfer simulation
+## Tech Stack
 
-Performance comparison with RSA
+- Python
+- liboqs (Open Quantum Safe)
+- Cryptography library
+- Google Colab (Linux environment)
 
-#Tech Stack
+---
 
-Python
+## Why This Matters
 
-liboqs (Open Quantum Safe)
-
-Google Colab (Linux)
-
-Cryptography library
-
-#Why This Matters
-
-Classical algorithms like RSA and ECC are vulnerable to quantum attacks (Shor’s algorithm).
+Classical algorithms like RSA and ECC are vulnerable to quantum attacks (Shor’s algorithm).  
 This system demonstrates a quantum-safe alternative ready for future security needs.
 
-#How to Run
+---
 
-Install dependencies:
+## How to Run
 
+This project is implemented in Google Colab.
+
+### 1. Install dependencies
 pip install -r requirements.txt
 
-Run:
 
-python send.py
-python receive.py
+### 2. Open the notebook
+PQC_implementation.ipynb
+
+
+### 3. Run all cells sequentially to execute:
+
+- Post-Quantum key exchange
+- Digital signature generation and verification
+- Secure file encryption and decryption
+- Performance comparison with RSA
+
+**Note:** The project was developed and tested in a Linux-based Google Colab environment.
